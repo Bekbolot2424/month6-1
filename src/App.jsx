@@ -7,7 +7,7 @@ import ZustandTodo from "./components/ZustandTodo";
 function App() {
   return (
     <Provider store={store}>
-      <div className="flex gap-5 p-10">
+      <div className="flex gap-5 p-8" >
           <ReduxTodo />
           <ZustandTodo />
       </div>
